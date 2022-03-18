@@ -1,0 +1,22 @@
+name: dio_certificate_verify
+description: Https Certificate Verification for Dio
+version: 1.0.4
+author: NBLTrust <developer@nbltrust.com>
+homepage: https://github.com/nbltrust/dio_certificate_verify
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^3.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    pluginClass: CertificateVerifyPlugin
+
